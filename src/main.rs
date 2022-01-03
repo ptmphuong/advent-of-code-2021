@@ -25,13 +25,21 @@ fn main() {
     let part2_pos = solutions::day3::result_part2(filename3);
     println!("part1_result: {:?}", part2_pos);
 
-    */
 
     let filename4 = "input_files/input4.txt";
     // let filename4 = "input_files/input4 copy.txt";
     let part1_pos = solutions::day4::result_part1(filename4);
     println!("part1_result: {:?}", part1_pos);
     let part2_pos = solutions::day4::result_part2(filename4);
+    println!("part2_result: {:?}", part2_pos);
+
+    */
+
+    let filename5 = "input_files/input5.txt";
+    // let filename5 = "input_files/input5 copy.txt";
+    let part1_pos = solutions::day5::result_part1(filename5);
+    println!("part1_result: {:?}", part1_pos);
+    let part2_pos = solutions::day5::result_part2(filename5);
     println!("part2_result: {:?}", part2_pos);
 }
 
