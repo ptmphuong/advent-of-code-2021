@@ -29,3 +29,8 @@ where P: AsRef<Path>, {
     }
     Ok(res)
 }
+
+pub fn string_to_int_vec(s: String) -> Vec<i32> {
+    let split : Vec<&str> = s.split(",").collect();
+    split.iter().map(|&x| x.trim().parse::<i32>().unwrap()).collect::<Vec<_>>()
+}

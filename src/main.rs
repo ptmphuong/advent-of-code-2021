@@ -33,7 +33,6 @@ fn main() {
     let part2_pos = solutions::day4::result_part2(filename4);
     println!("part2_result: {:?}", part2_pos);
 
-    */
 
     let filename5 = "input_files/input5.txt";
     // let filename5 = "input_files/input5 copy.txt";
@@ -41,5 +40,16 @@ fn main() {
     println!("part1_result: {:?}", part1_pos);
     let part2_pos = solutions::day5::result_part2(filename5);
     println!("part2_result: {:?}", part2_pos);
+
+    */
+
+    let filename6 = "input_files/input6.txt";
+    // let filename6 = "input_files/input6 copy.txt";
+    // let part1_pos = solutions::day6::result_part1(filename6);
+    // println!("part1_result: {:?}", part1_pos);
+    let part1_pos = solutions::day6::count_dp(filename6);
+    println!("part1_result: {:?}", part1_pos);
+    // let part2_pos = solutions::day6::result_part2(filename6);
+    // println!("part2_result: {:?}", part2_pos);
 }
 
